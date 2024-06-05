@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="raceworld" type="pure" name="pure" output="screen"/>
+    <node pkg="raceworld" type="main" name="main" output="screen"/>
+    <node pkg="raceworld" type="lane.py" name="lane" output="screen"/>
+</launch>
