@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="raceworld_master" type="follower1.py" name="follower1" output="screen"/>
+    <node pkg="raceworld_master" type="leader.py" name="leader" output="screen"/>
+    <node pkg="raceworld_master" type="follower2.py" name="follower2" output="screen"/>
+    <node pkg="raceworld_master" type="follower3.py" name="follower3" output="screen"/>
+</launch>
