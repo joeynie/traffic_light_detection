@@ -7,13 +7,13 @@
 2. 编译并配置环境变量 `catkin_make && source ./devel/setup.bash`
 3. 加载gazebo环境（可能要等一段时间）
 `roslaunch raceworld_master raceworld2.launch`
-5. 运行红绿灯检测程序
+5. 运行红绿灯检测程序  
 打开另一个终端
 ```
 source ./devel/setup.bash
 rosrun raceworld_master camera
 ```
-6. 运行巡线程序
+6. 运行巡线程序  
 打开另一个终端
 ```
 source ./devel/setup.bash
